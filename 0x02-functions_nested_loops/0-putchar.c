@@ -1,21 +1,20 @@
-#include "main .h"
-
+#include "main.h"
 /**
- * main - Entry point
- * Return: Always
+ * main - Entry Block
+  *Description: prints _putchar followed by a new line
+ * Return: 0
  */
-
 int main(void)
-
 {
+	char c[8] = "_putchar";
 
-         _putchar(' ');
-         _putchar('p');
-         _putchar('u');
-         _putchar('t');
-         _putchar('c');	 
-	 _putchar('h');
-	 _putchar('o');
-	_putchar('\n')
-		return (n);
+	int i = 0;
+
+	while (i < 8)
+	{
+		_putchar(c[i]);
+		i++;
+	}
+	_putchar('\n');
+	return (0);
 }
